@@ -1,0 +1,21 @@
+div{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    transition: all 3s;
+    background-color: blue;
+}
+
+div:hover{
+    transform: translateX(100%);
+}
+
+.ease{
+    transition-timing-function: ease;
+}
+
+.ease-in{
+    transition-timing-function: ease-in;
+    
+}
+

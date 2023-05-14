@@ -1,0 +1,294 @@
+body
+{
+    margin: 0;
+}
+ 
+ .container{
+  
+  width: 1160px;
+  margin: auto;
+}
+ 
+ 
+ 
+ 
+ 
+ ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    
+    font-size: 17px;
+     font-family: !important;
+     list-style-type: none;
+     
+   
+    
+    background-color: #333333;
+}
+        
+ 
+        
+       
+
+  li  {
+    float: left;
+   
+       }
+
+  li a{
+    display: inline-block;
+    
+    color: white;
+    text-align: center;
+    padding:  16px;
+
+     list-style-type: none;
+       text-decoration: none;
+         }
+
+  li :hover {
+    background-color: #111;
+          }
+
+    .active {
+    background-color:#6b6b6b;
+      }
+
+
+
+  .listfashion
+      
+      {
+     margin-top: 20px;
+     
+      margin-right: 0px;
+      padding: 0;
+     
+      
+     overflow: hidden;
+     float: right;
+     border: 10px;
+
+      }
+      
+     
+ a:link {
+   
+   color: #979393;
+    text-decoration: none;
+}
+a:visited {
+    color: #979393;
+   
+    text-decoration: none;
+}
+
+a:active {
+    color:#979393;
+    
+    text-decoration: none;
+}
+
+
+.logo
+
+{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid;
+}
+
+
+
+
+
+
+
+
+
+.btn {
+    border:none;
+    margin-left: 300px;
+    margin-bottom: 5px;
+    
+    color: white;
+    padding: 8px 7px;
+    
+    cursor: pointer;
+   
+    
+}
+
+.success
+{
+ 
+   background-color: rgb(50, 50, 50); /* gray */
+   font-size: 35px;
+   margin-left: 600px;
+   margin-top: 20px;
+   letter-spacing: 10px;
+ }
+ 
+.success:hover{ background-color:black;}
+
+.info
+{
+   background-color: rgb(100, 100, 100); /* gray */
+  margin-left: 450px;
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+.info:hover {background:black;}
+
+ 
+
+
+.warning {
+ 
+     
+    font-size: 30px;
+    
+     background-color: rgb(160, 160, 160);
+     color: white; /* Gray */
+     margin-left: 500px;
+     margin-bottom: 30px;
+    letter-spacing: 10px;
+ 
+ }
+ 
+ 
+.warning:hover {background: black;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.beauty
+{
+        text-align: left;
+        font-size: 20px;
+         text-decoration:underline;
+         padding-bottom: 10px;
+         margin-bottom: 20px;
+}
+.NOOR
+{
+      border-right: 1px solid;
+      padding-top: 0;
+      padding-right: 20px;
+}
+
+.NOOR-photo
+{
+        padding-bottom: 30px;
+        padding-right: 20px;
+        padding-top: 0;
+    }
+
+.noor-h1
+{
+    font-size: 22px;
+}
+.noor-p
+{
+font-size: 21px;
+font-family: sans-serif;
+}
+
+
+.bag-jacket
+{
+    border-right: 1px solid;
+    padding-right: 20px;
+}
+.jacket
+{
+    margin-bottom: 10px;
+}
+
+.jachet-h2
+{
+   margin-left: 50px;
+   font-size: 25px;
+   padding-top: 100px;
+}
+.jachet-p
+{
+   margin-left: 50px;
+   font-size: 21px;
+}
+
+.bag-h3
+{
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+.bag-p
+{
+    margin-left: 30px;
+    font-size: 21px;
+}
+
+
+
+
+
+
+.button {
+    background-color:black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+     border: 2px solid #555555;
+    border-radius: 50%;
+}
+
+
+
+.dress-h4
+{
+ margin-left: 50px;
+    font-size: 21px;
+    padding-bottom: 0;
+}
+
+.dress-p
+{
+  margin-left: 30px;
+    font-size: 20px;
+}
+
+.sunglass
+{
+ margin-left: 50px;
+}
+
+.sunglass-h5
+{
+  margin-left: 50px;
+    font-size: 22px;
+}
+
+.sunglass-p
+{
+ margin-left: 30px;
+    font-size: 21px;
+}

@@ -1,0 +1,176 @@
+body
+{
+ margin: 0px;
+    
+  
+  
+    background-size: cover;
+    
+}
+.container{
+  
+  width: 1160px;
+  margin: auto;
+}
+
+
+   
+  ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    
+    font-size: 17px;
+     font-family: !important;
+     list-style-type: none;
+     
+   
+    
+    background-color: #333333;
+}
+        
+ 
+        
+       
+
+  li  {
+    float: left;
+   
+       }
+
+  li a{
+    display: inline-block;
+    
+    color: white;
+    text-align: center;
+    padding:  16px;
+
+     list-style-type: none;
+      text-decoration: none;
+         }
+
+  li :hover {
+    background-color: #111;
+          }
+
+    .active {
+    background-color:#6b6b6b;
+      }
+      
+      
+   
+      .listfashion
+      
+      {
+     margin-top: 20px;
+     
+     margin-right: 0px;
+     padding: 0;
+
+ 
+     overflow: hidden;
+     float: right;
+     border: 10px;
+
+      }
+      
+     
+ a:link {
+   
+   color: #979393;
+    text-decoration: none;
+}
+a:visited {
+    color: #979393;
+   
+    text-decoration: none;
+}
+
+a:active {
+    color:#979393;
+    
+    text-decoration: none;
+}
+
+
+
+.logo
+{
+ padding-top: 20px;
+}
+     
+      
+      video {
+  width: 100%;
+    height:auto;
+    margin-top: 40px;
+    margin-right: 50px;
+    
+    float: left;
+    border-top: 1px solid;
+    
+    padding-top: 20px;
+   
+    
+}
+
+.text
+{
+ margin-top: 50px;
+
+}
+
+
+.Beckham-photo-2018
+{
+ border-top: 1px solid;
+ padding-top: 50px ;
+ }
+
+
+.intro
+{
+ 
+ padding-right: 20px;
+ padding-left: 15px;
+ 
+ font-size: 20px;
+ font-family:!important;
+}
+
+}
+.post-preview__author-photo
+
+{
+ margin-top: 140px;
+ padding-top:92px;
+ padding-left: 10px;
+  
+}
+
+.advirts
+{
+ border-top: 1px solid;
+ padding-top:50px;
+}
+
+.gallery-beauty
+{
+ margin-top: 60px;
+ padding-top: 30px;
+ border-top:1px solid;
+}
+
+.VictoriaBeckham-photos
+{
+ padding: 8px;
+}
+
+
+.VictoriaBeckham-text
+
+{
+ font-size: 14px;
+ font-family: sans-serif;
+}

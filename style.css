@@ -1,0 +1,168 @@
+body {
+  margin: 0px;
+  background-image: url("30.jpg");
+  background-size: cover;
+}
+
+.container {
+  width: 1160px;
+  margin: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 17px;
+  list-style-type: none;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+li :hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #6b6b6b;
+}
+
+.logo {
+  border-bottom: 1px solid;
+}
+
+.listfashion {
+  margin-right: 0px;
+  padding: 0;
+  overflow: hidden;
+  float: right;
+  border: 10px;
+}
+
+.fashion {
+  color: #c98f8f;
+  padding-right: 0px;
+  margin-right: 0px;
+  text-decoration: none;
+  border-bottom: 20px;
+}
+
+a:link {
+  color: #6c7373;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #070808;
+}
+
+a:visited {
+  color: #979393;
+  text-decoration: none;
+}
+
+a:active {
+  color: #979393;
+  text-decoration: none;
+}
+
+.firstimag {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-image: url('summer.jpg');
+  height: 500px;
+  background-size: cover;
+}
+
+.btn {
+  border: none;
+  margin-left: 250px;
+  margin-bottom: 5px;
+  color: black;
+  padding: 10px 12px;
+  cursor: pointer;
+}
+
+.intro {
+  background-color: white;
+  /* white*/
+  font-size: 30px;
+  font-family: sans-serif;
+  margin-left: 500px;
+  margin-top: 350px;
+}
+
+.intro:hover {
+  background-color: rgb(100, 100, 100);
+}
+
+.info {
+  background-color: white;
+  /* white*/
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-left: 450px;
+  margin-top: 10px;
+}
+
+.info:hover {
+  background-color: rgb(100, 100, 100);
+}
+
+.mail {
+  font-size: 20;
+  text-align: center;
+}
+
+.nextimag {
+  border-top: 1px solid;
+  padding-top: 10px;
+  background-image: url("5555.jpg");
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 700px;
+  background-size: cover;
+}
+
+.intro2 {
+  font-size: 40px;
+  direction: ltr;
+}
+
+.post-preview__author {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.post-preview__date {
+  font-size: 20px;
+}
+
+.beauty {
+  margin: 50px;
+  border-top: 1px solid;
+  padding-top: 20px;
+}
+
+td {
+  margin: 10px;
+  padding: 15px;
+  padding-top: 0;
+}
+
+.texts {
+  font-size: 25px;
+  font-family: serif;
+}

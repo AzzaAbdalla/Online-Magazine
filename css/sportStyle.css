@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    position: relative;
+}
+
+.first{
+    background: linear-gradient(rgb(255, 104, 107, 0.2), rgb(0, 0, 0, 0.5)),
+    url(/Sports/ali.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+.firstInner{
+    position: absolute;
+    top: 200px;
+    left: 37%;
+    font-size: 2rem;
+}
+
+h1{
+    color: #ffa69e;
+    font-family: cursive;
+}
+
+h4{
+    color:#ff686b;
+    font-style: italic;
+    font-family: cursive;
+}
+
+h2{
+    text-align: center;
+    font-size: 200%;
+    display: flex;
+    width: fit-content;
+    height: 100px;
+    text-align: center;
+    margin: 50px auto;
+    background: #ffa69e;
+    outline: 3px solid white;
+    outline-offset: -10px;
+    border: 3px solid #ff686b;
+    padding: 22px;
+    box-sizing: border-box;
+}
+
+ul{
+    float: left;
+    background: #333;
+    width: 100vw;
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+}
+
+input{
+    font-size: 17px;
+    padding: 6px 12px 6px 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 8px;
+    right:25px;
+    width: 15%;
+}
+
+.pics{
+    width: 30vw;
+    height: 70vh;
+    float: left;
+    margin:30px 1px 50px 30px;
+    box-sizing: border-box;
+    padding: 1rem;
+    padding-bottom: 4rem;
+    position: relative;
+}
+
+.pics::before{
+    content: "";
+    border: 3px groove #84dcc6;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    z-index: -2;
+    transition: all 1s linear;
+}
+
+.pics::after {
+    content: "";
+    background: rgb(165, 255, 214, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    z-index: -1;
+    transition: all 0.5s linear;
+}
+
+.pics:hover::before, .pics:hover::after{
+    top: 0;
+    left: 0;
+}
+
+img{
+    width: 100%;
+    height: 80%;
+    z-index: -1;
+}
+
+.videos{
+    width: 45vw;
+    height: 70vh;
+    float: left;
+    box-sizing: border-box;
+    margin: 50px 20px 20px 35px;
+    padding: 1rem;
+    position: relative;
+}
+
+.videos::before{
+    content: "";
+    border: 3px groove #ff686b;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    z-index: -2;
+    transition: all 0.5s linear;
+}
+
+.videos::after {
+    content: "";
+    background: rgb(255, 166, 158, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    z-index: -1;
+    transition: all 0.5s linear;
+}
+
+.videos:hover::before, .videos:hover:after{
+    top: 0;
+    left: 0;
+}
+
+video{
+    width: 100%;
+    height: 80%;
+}

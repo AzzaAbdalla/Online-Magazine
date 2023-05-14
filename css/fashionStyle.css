@@ -1,0 +1,78 @@
+body{
+    background: url(/Fashion/Screenshot\ \(22\).png);
+    background-repeat: no-repeat/cover;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 17px;
+    background-color: #bbbbbb;
+}
+
+#header {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 17px;
+    list-style-type: none;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+li :hover {
+    background-color: #111;
+    transform: scale(1.1);
+}
+
+input[type=text] {
+    width: 15%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 13px;
+    background-color: white;
+    background-image: url("search.png");
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 20px;
+    position: absolute;
+    top: 12px;
+    right: 1rem;
+
+}
+
+summary {
+    color: #ff0000;
+    font-size: 120%;
+}
+
+p {
+    color: #666666;
+    font-size: 150%;
+}
+
+h2 {
+    color: #a00000;
+}
+
+ul {
+    font-size: 115%;
+    color: #0000ff;
+}
+
+div {
+    background-color: #cccccc;
+}

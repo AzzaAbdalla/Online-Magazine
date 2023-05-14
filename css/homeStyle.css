@@ -1,0 +1,133 @@
+body {
+  margin: 0px;
+  background-image: url("/Common/30.jpg");
+  background-size: cover;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 17px;
+  list-style-type: none;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+li :hover {
+  background-color: #111;
+  transform: scale(1.1);
+}
+
+input[type=text] {
+  width: 15%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 13px;
+  background-color: white;
+  background-image: url("search.png");
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  position: absolute;
+  top: 3px;
+  right: 6px;
+}
+
+p {
+  font-size: 50px;
+  color: rgba(255, 99, 71, 0.8);
+  font-weight: 800;
+  font-style: italic;
+  border-bottom: 2px;
+  border-style: outset;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-shadow: 5px 3px white;
+  font-family: "Saira SemiCondensed";
+  position: absolute;
+  top: 20px;
+  left: 100px;
+}
+
+div.latest {
+  overflow: scroll;
+  border-bottom: solid;
+  margin-left: 1000px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  width: 260px;
+  height: 510px;
+  text-align: justify;
+}
+
+div.time {
+  color: red;
+}
+
+h2 {
+  margin-left: 1000px;
+  margin-top: 50px;
+  border-top: solid;
+  border-top-color: black;
+  padding-top: 20px;
+}
+
+div.img {
+  margin-top: 100px;
+}
+
+.mySlides {
+  position: absolute;
+  top: 150;
+  margin-left: 50px;
+  width: 800px;
+  height: 500px;
+  border-radius: 5px;
+  padding-top: 30px;
+}
+
+.beauty {
+  margin: 50px;
+  border-top: 1px solid;
+  padding-top: 20px;
+}
+
+td {
+  margin: 10px;
+  padding: 15px;
+  padding-top: 0;
+}
+
+.texts {
+  font-size: 25px;
+  font-family: serif;
+}
+
+.foooter {
+  position: absolute;
+  bottom: -1100px;
+  width: 100%;
+}
+
+.foooter ul {
+  list-style: none;
+  margin-right: 50px;
+  margin-top: 10px;
+}
+
+.foooter ul li {
+  display: inline-block;
+}

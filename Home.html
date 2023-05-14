@@ -1,0 +1,208 @@
+﻿ <!DOCTYPE html>
+<html>
+
+<head>
+  <title> Home</title>
+  <link href="./css/general.css" rel="stylesheet" type="text/css" />
+  <link href="./css/homeStyle.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <div class="btn-group">
+    <nav>
+      <ul>
+        <li class="home"><a href="Home.html">Home</a></li>
+        <li class="cinema"><a href="cinema.html">Cinema</a></li>
+        <li class="sports"><a href="Sport.html">Sports</a></li>
+        <li class="fashion"><a href="Fashion.html">Fashion</a></li>
+        <li class="contactus"><a href="contactUs.html">Contact Us</a></li>
+
+        <form>
+          <input type="text" name="search" placeholder="Search..">
+        </form>
+      </ul>
+    </nav>
+  </div>
+
+  <p><b>S C o o P </b></p>
+
+  <!-- <img id="myimage" onmouseover="mOver()" onmouseout="mOut()"  width="100" height="180" />
+
+<script>
+
+    for(i=0;i<5;i++)
+
+  document.getElementById('myimage').src = "2019.jpg";
+
+  document.getElementById('myimage').src = "summer.jpg";
+
+</script> -->
+  <!--  <script> -->
+  <!-- var i=0;  
+	   var image=[];
+	   var time=1000;
+	   
+	   image[0]='summer.jpg';
+	   image[1]='2019.jpg';
+	   image[2]='Screen-Shot-2018.png';
+	   image[3]='Screen-Shot.png';
+	   image[4]='top.jpg';
+	   
+	   function changeIma(){
+	   
+	  
+	   document.slide.src=image[i];
+	   if(i<image.length-1)
+	   {
+	   
+	   i++;
+	   }
+	   else
+	   {
+	   
+	   i=0;
+	   }
+	    seTimeout("chageImg()",time);
+	  
+	   }
+	  
+	   widow.onload = chageImg;
+
+           </script>
+ -->
+  <div class="img">
+    <img class="mySlides" src="./Home/google (2).jpg">
+    <img class="mySlides" src="./Home/google (2).jpg">
+    <img class="mySlides" src="./Home/top.jpg">
+    <img class="mySlides" src="./Home/google (1).jpg">
+    <img class="mySlides" src="./Home/google (2).jpg">
+    <img class="mySlides" src="./Home/google (3).jpg">
+  </div>
+
+  <script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) { myIndex = 1 }
+      x[myIndex - 1].style.display = "block";
+      setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+  </script>
+
+  <h2>Latest News</h2>
+
+  <div class="latest">
+
+    <div class="time">2:01 P.M.</div>
+
+    <br>
+    Jeffrey Epstein’s Ties to Les Wexner: What We’ve Learned<br>
+    Two new stories shine a light on the odd partnership between <br>the math teacher turned financier and a retail
+    billionaire.<br>
+    <br>
+    <br>
+    <div class="time">1:30 P.M.</div>
+
+    <br>
+    Ismailia Governor Hamdi Osman issued <br>
+    a decision on Monday to close all cafes and cyber cafes<br>
+
+    at 1:00 am during the summer and at 12 am during the winter.
+    <br>
+    <br>
+    <div class="time">3:23 P.M.</div>
+    <br>
+    A Capsule Collection for True Romantics<br>
+    From The Row and Net-a-Porter.
+    <br>
+    <br>
+    <div class="time">3:17 P.M.</div>
+
+    Anyway, Here’s Some 700-Year-Old Erotica<br>
+    “The Rose Thorn,” an old-timey sex poem about<br>
+    a woman’s debate with her own vagina,<br>
+    is actually 200 years older than we thought.<br>
+
+    <br>
+    <br>
+    <div class="time">3:09 P.M.</div>
+    <br>
+    Colin Farrell Boldly Attempts Reverse Athleisure<br>
+    Or, wearing cargo shorts and hiking boots to the gym.<br>
+    <br>
+    <div class="time">2:38 P.M.</div>
+    <br>
+    How to Have a Happy Marriage
+    Remember that you chose to love this person.
+    <br>
+    <br>
+    <div class="time">2:26 P.M.</div>
+    <br>
+    Mathilde Thomas Was a Clean Beauty Pioneer
+    The Caudalie founder on her favorite products, <br>her workplace uniform, and her family band.
+
+  </div>
+  </table>
+
+  <div class="beauty">
+    <div class="container">
+      <table class="our work">
+        <tr class="head">
+          <td> SPORTS</td>
+          <td>MEDICIN</td>
+          <td> POLITICS </td>
+        </tr>
+        <tr>
+          <td class="photos"> <img src="./Home/liverpool.jpeg " width="350" height="350" alt="beauty" /></td>
+          <td> <img src="./Home/download.jpg" width="350" height="350" alt="beauty" /></td>
+          <td> <img src="./Home/download (1).jpg" width="350" height="350" alt="beauty" /></td>
+        </tr>
+        <tr>
+          <td class="texts"> Liverpool is looking to sign Bordeaux’s <br>
+            Guinean winger Francois Camano to<br>
+            strengthen the strikers’ line next season.</td>
+
+          <td class="texts">Several pharmacists asked the Egyptian government to dismiss Minister of Health <br>
+            Hala Zayed after she stated that the absence of<br>
+            one nurse is more influential than the absence of 100 pharmacists,<br>
+            during her visit to the Directorate of Health Insurance System in Port Said.</td>
+
+          <td class="texts"> Egypt’s Ministry of Immigration received footage on Friday<br>
+            of a quarrel between an Egyptian passenger<br>
+            and his Moroccan wife against the cabin crew of a Romanian airplane.</td>
+
+        </tr>
+        <tr>
+          <td>By<a href="https://fashionmagazine.com/author/smichael/">Souzan Michael</a> Date February 14, 2018 </td>
+          <td>By<a href="https://fashionmagazine.com/author/smichael/">Souzan Michael</a> Date February 13, 2018</td>
+          <td> By<a href="https://fashionmagazine.com/author/smichael/">Lesa Hannah </a> Date February 9, 2018</td>
+        </tr>
+
+    </div>
+
+    <div class="foooter">
+      <span> copyright &copy;2019 Team.</span>
+      <ul>
+        <li><a href="https://www.facebook.com/"><img src="./Common/if_online_social_media_facebook_734386.png"
+              alt=""></a></li>
+        <li><a href="https://www.youtube.com/?gl=EG"><img src="./Common/if_youtube_online_social_media_tube_734362.png"
+              alt=""></a></li>
+        <li><a
+            href="https://accounts.google.com/signin/v2/identifier?elo=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+            <img src="if_online_social_media_google_search_plus_734387.png" alt=""></a></li>
+        <li><a href="https://twitter.com/login?lang=ar"> <img src="./Common/if_twitter_online_social_media_734367.png"
+              alt=""></a></li>
+      </ul>
+    </div>
+
+</body>
+
+</html>
